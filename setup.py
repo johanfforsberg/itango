@@ -81,7 +81,7 @@ class ITangoInstall(install):
             import traceback
             traceback.print_exc()
             print('Installing Jupyter hook failed.')
-        super().run()
+        install.run(self)
 
 
 setup(
